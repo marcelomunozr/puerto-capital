@@ -1,0 +1,189 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+					xmlns:x="urn:schemas-microsoft-com:office:excel"
+					xmlns="http://www.w3.org/TR/REC-html40">
+					
+					<head>
+					<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+					<meta name=ProgId content=Excel.Sheet>
+					<meta name=Generator content="Microsoft Excel 11">
+					<link rel=File-List href="tempo_archivos/filelist.xml">
+					<link rel=Edit-Time-Data href="tempo_archivos/editdata.mso">
+					<link rel=OLE-Object-Data href="tempo_archivos/oledata.mso">
+					<!--[if gte mso 9]><xml>
+					 <o:DocumentProperties>
+					  <o:Author>WinuE</o:Author>
+					  <o:LastAuthor>WinuE</o:LastAuthor>
+					  <o:Created>2010-07-20T02:44:40Z</o:Created>
+					  <o:LastSaved>2010-07-20T02:44:58Z</o:LastSaved>
+					  <o:Company>Windows uE</o:Company>
+					  <o:Version>11.8132</o:Version>
+					 </o:DocumentProperties>
+					</xml><![endif]-->
+					<style>
+					<!--table
+						{mso-displayed-decimal-separator:"\.";
+						mso-displayed-thousand-separator:"\,";}
+					@page
+						{margin:.98in .79in .98in .79in;
+						mso-header-margin:0in;
+						mso-footer-margin:0in;}
+					tr
+						{mso-height-source:auto;}
+					col
+						{mso-width-source:auto;}
+					br
+						{mso-data-placement:same-cell;}
+					.style0
+						{mso-number-format:General;
+						text-align:general;
+						vertical-align:bottom;
+						white-space:nowrap;
+						mso-rotate:0;
+						mso-background-source:auto;
+						mso-pattern:auto;
+						color:windowtext;
+						font-size:10.0pt;
+						font-weight:400;
+						font-style:normal;
+						text-decoration:none;
+						font-family:Arial;
+						mso-generic-font-family:auto;
+						mso-font-charset:0;
+						border:none;
+						mso-protection:locked visible;
+						mso-style-name:Normal;
+						mso-style-id:0;}
+					td
+						{mso-style-parent:style0;
+						padding-top:1px;
+						padding-right:1px;
+						padding-left:1px;
+						mso-ignore:padding;
+						color:windowtext;
+						font-size:10.0pt;
+						font-weight:400;
+						font-style:normal;
+						text-decoration:none;
+						font-family:Arial;
+						mso-generic-font-family:auto;
+						mso-font-charset:0;
+						mso-number-format:General;
+						text-align:general;
+						vertical-align:bottom;
+						border:none;
+						mso-background-source:auto;
+						mso-pattern:auto;
+						mso-protection:locked visible;
+						white-space:nowrap;
+						mso-rotate:0;}
+					.normal
+						{mso-style-parent:style0;
+						white-space:normal;}
+					.numero
+						{mso-style-parent:style0;
+						white-space:normal;}
+					.fecha
+						{mso-style-parent:style0;
+						mso-number-format:"Short Date";}
+					.theader
+						{mso-style-parent:style0;
+						border:.5pt solid #000000;
+						color: white;
+						background: #999999;
+						text-align:center; font-weight:700;
+						font-size:10px;
+						vertical-align:middle;
+						white-space:normal;
+						mso-pattern:auto none; }
+					.bold
+						{mso-style-parent:style0;
+						font-weight:700;
+						font-size:15px;
+						}
+				.xs0{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs1{mso-style-parent:style0;  text-align:left; color:#000;  }
+.xs2{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs3{mso-style-parent:style0; color:#000;  }
+.xs4{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs5{mso-style-parent:style0; color:#000;  }
+.xs6{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs7{mso-style-parent:style0;  font-weight:700; color:#000; background:#F2F2F2; mso-pattern:auto none;  }
+.xs8{mso-style-parent:style0;  font-weight:700; color:#000; background:#F2F2F2; mso-pattern:auto none;  }
+.xs9{mso-style-parent:style0;  font-weight:700; color:#000; background:#F2F2F2; mso-pattern:auto none;  }
+.xs10{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs11{mso-style-parent:style0; color:#000;  }
+.xs12{mso-style-parent:style0; color:#000;  }
+.xs13{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs14{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs15{mso-style-parent:style0; color:#000;  }
+.xs16{mso-style-parent:style0;  font-weight:700; color:#000;  }
+.xs17{mso-style-parent:style0; color:#000;  }
+				
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>Hoja1</x:Name>
+					<x:WorksheetOptions>
+					 <x:DefaultColWidth>10</x:DefaultColWidth>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10740</x:WindowHeight>
+				  <x:WindowWidth>17595</x:WindowWidth>
+				  <x:WindowTopX>480</x:WindowTopX>
+				  <x:WindowTopY>90</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style="border-collapse: collapse;table-layout:fixed;">
+<col width=80 style='mso-width-source:userset;width:60pt'>
+<col width=80 style='mso-width-source:userset;width:60pt'>
+<col width=80 style='mso-width-source:userset;width:60pt'>
+<tr><td class=normal width=64 ><b>SOLICITUD DE COTIZACION</b></td></tr><tr></tr><tr>
+<td class=xs0  width=80 style=' width:60pt ' >Codigo</td>
+<td class=xs1  align=left  width=80 style=' width:60pt ' >2</td>
+</tr>
+<tr>
+<td class=xs2  width=80 style=' width:60pt ' >Proyecto</td>
+<td class=xs3  width=80 style=' width:60pt ' >Vicente Huidobro</td>
+</tr>
+<tr>
+<td class=xs4  width=80 style=' width:60pt ' >Planta</td>
+<td class=xs5  width=80 style=' width:60pt ' >D2-B1-C</td>
+</tr>
+<tr></tr><tr>
+<td class=xs6  width=80 style=' width:60pt ' >COSTOS</td>
+</tr>
+<tr></tr><tr>
+<td class=xs7  width=80 style=' width:60pt ' >PISO</td>
+<td class=xs8  width=80 style=' width:60pt ' >DEPTO.</td>
+<td class=xs9  width=80 style=' width:60pt ' >VALOR UF</td>
+</tr>
+<tr>
+<td class=xs10  width=80 style=' width:60pt ' >Piso 1</td>
+<td class=xs11  width=80 style=' width:60pt ' >Depto. 101</td>
+<td class=xs12  width=80 style=' width:60pt ' >UF $230</td>
+</tr>
+<tr></tr><tr>
+<td class=xs13  width=80 style=' width:60pt ' >OPCIONALES</td>
+</tr>
+<tr></tr><tr>
+<td class=xs14  width=120 style=' width:90pt ' >Estacionamiento</td>
+<td class=xs15  width=80 style=' width:60pt ' >UF $55</td>
+</tr>
+<tr>
+<td class=xs16  width=80 style=' width:60pt ' >Bodega</td>
+<td class=xs17  width=80 style=' width:60pt ' >UF $50</td>
+</tr>
+</table></body></html>

@@ -1,0 +1,1 @@
+"use strict";jQuery(document).ready(function(t){t(".to-target").click(function(o){t("html, body").animate({scrollTop:t("#to-target").offset().top-40},600);var e=t(this).data("madopentab");e&&(console.log("yep",e),t('a[href="#'+e+'"]').tab("show"),o.preventDefault())});location.href});

@@ -1,0 +1,562 @@
+section.tab-single .the-single .body-zone .context .salaventas {
+	padding: 20px 0 10px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-weight: 600;
+}
+section.tab-single .the-single .body-zone .context .salaventas a {
+	color: black;
+	text-decoration: underline;
+    font-weight: 600;
+}
+section.tab-single .the-single .body-zone .context .salaventas p{
+    font-weight: 600;
+}
+section.tab-single .the-single .body-zone .context .salaventas strong{
+    color: #ffa409;
+    font-size: 20px;
+    font-weight: 600;
+}
+section.tab-single .the-single .body-zone .context .salaventas span.orange{
+    color: black;
+    font-weight: 600;
+}
+section.contacto h5{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.hr {
+	margin: 25px 0 5px;
+	border-bottom: dotted 1px white;
+	clear: both;
+}
+.hr hr {
+	display: none;
+}
+.te-ayudamos {
+	display: none;
+	position: fixed;
+	width: 370px;
+	height: 276px;
+}
+/*--- pestaÃ±a ----*/
+.cover_pestana {
+    width: 50px;
+    position: absolute;
+    height: 276px;
+    right: 0;
+    top: 160px;
+    overflow: hidden;
+    transition: all .5s;
+    z-index: 10;
+}
+.cover_pestana:hover {
+    width: 320px;
+}
+.pestana {
+	position: absolute;
+    left: 50px;
+    top: 0;
+    z-index: 999;
+    background-image: url('../images/te-ayudamos-2.png');
+    width: 271px;
+    background-position: top left;
+    height: 276px;
+    transition: all .5s;
+}
+.pestana:before {
+    position: absolute;
+    left: -50px;
+    width: 50px;
+    height: 160px;
+    content: "";
+    background-image: url('../images/te-ayudamos-1.png');
+}
+.pestana:hover,
+.pestana:active,
+.pestana:focus,
+.pestana.active {
+	right: 0px;
+}
+.boton-link {
+  	/* border: thin solid red; */
+    height: 50px;
+    left: 49px;
+    position: absolute;
+    top: 200px;
+    width: 187px;
+}
+section.home .carousel .carousel-control{
+    z-index: 1000;
+}
+section.proyectos .box .cont-down{
+    margin-top: 10px;
+}
+section.proyectos .box .cont-down .col-md-6:last-child{
+    border: none;
+}
+section.home .carousel .carousel-inner .item,
+section.home .carousel .carousel-inner .item.active{
+    padding-top: 136px;
+}
+section.home .carousel .carousel-inner .item a.slide-url{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    float: none;
+    display: block;
+}
+section.home .carousel .carousel-inner .item img{
+    max-width: 100%;
+    min-height: 0;
+    right: inherit;
+    opacity: 1;
+    top: 0;
+    position: relative;
+}
+section.nosotros h4,
+section.proyectos h4,
+section.realizado h4,
+section.contacto h4,
+section.tab-single .the-single .body-zone h4,
+section.tab-single .the-single .location-zone h4{
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+section.nosotros p,
+section.proyectos p,
+section.realizado p,
+section.contacto p{
+    opacity: .7;
+}
+section.proyectos .box h2{
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+section.proyectos .box p{
+    opacity: .7;
+}
+header nav.navbar .navbar-nav li a{
+    font-weight: 400;
+}
+section.proyectos .bg-naranjo a, 
+section.proyectos .bg-naranjo span{
+    font-weight: 400;
+}
+section.proyectos .bg-naranjo span{
+    font-size: 13px;
+}
+section.proyectos .bg-naranjo a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-naranjo{
+    font-size: 13px;
+}
+section.tab-single .tab-list{
+    margin-top: -38px;
+}
+section.tab-single .tab-list li a{
+    font-size: 13px;
+    padding: 10px 25px;
+    background: #666;
+    border-right: 1px solid #3c3c3b;
+}
+section.tab-single .the-single .body-zone .context *{
+    font-weight: 400;
+}
+section.tab-single .the-single .head .shows a, section.tab-single .the-single .head .shows h6{
+    font-size: 12px;
+}
+section.tab-single .the-single .body-zone .know h3{
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 600;
+    opacity: .7;
+}
+header nav.navbar .navbar-nav li.face a{
+    background: #333;
+}
+section.realizado h2{
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 600;
+}
+section.contacto #map_canvas{
+    height: 252px;
+}
+.up-to-top{
+    background: #ffa409;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    line-height: 34px;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    z-index: 1000;
+}
+/*ADD GALLERY MODAL ZONE*/
+.ico-cam{
+    width: 29px;
+    height: 26px;
+    display: inline-block;
+    float: none;
+    position: relative;
+    background: url(../images/ico-cam.png) no-repeat;
+    top: 5px!important;
+    zoom: .91!important;
+}
+section.tab-single .the-single .head .shows h6{
+    padding-right: 0;
+    padding-left: 36px;
+}
+section.tab-single .the-single .head .shows a span, section.tab-single .the-single .head .shows h6 span{
+    right: inherit;
+    left: 0;
+}
+.modal-pc{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 9999999;
+    padding-top: 100px;
+    display: none;
+}
+.modal-pc img.img-center.img-responsive{
+    max-height: 640px;
+}
+.close-modal-pc{
+    width: 34px;
+    height: 34px;
+    background: url(../images/close.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+@media (max-width: 1366px){
+    .modal-pc img.img-center.img-responsive{
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 767px){
+    section.single .icons-single .comu{
+        padding: 4px 18px 4px 18px;
+    }
+    section.home{
+        min-height: inherit;
+    }
+    section.home .carousel .carousel-inner .item{
+        padding-top: 50px;
+        min-height: 0;
+        height: auto;
+    }
+    section.home .carousel .carousel-inner .item img{
+        max-width: 100%;
+        min-height: 0;
+        height: auto;
+        right: inherit;
+        opacity: 1;
+    }
+    section.home .carousel .carousel-inner .item a.slide-url{
+        position: relative;
+        top: inherit;
+        bottom: inherit;
+        left: inherit;
+        right: inherit;
+    }
+    .navflechas a.bajar h3{
+        display: none;
+    }
+    section.contacto .before {
+        top: 103px;
+    }
+    footer .col-sm-6.text-right{
+        text-align: left!important;
+    }
+    section.proyectos h4:before{
+        background-size: 100%;
+    }
+    section.proyectos .before{
+        top: 99px;
+    }
+    section.tab-single .the-single .head .shows h6{
+        padding-left: 0;
+        line-height: 18px;
+    }
+    section.tab-single .the-single .head .shows a span, section.tab-single .the-single .head .shows h6 span{
+        margin-bottom: 16px;
+    }
+    .ico-cam{
+        min-height: 33px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.tab-single .tab-list{
+        margin-top: -37px;
+    }
+    section.tab-single .tab-list li a {
+        font-size: 11px;
+        padding: 10px 4px;
+    }
+}
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .ico-cam{
+        background: url(../images/ico-cam@2x.png) no-repeat;
+        background-size: contain;
+    }
+    .close-modal-pc{
+        background: url(../images/close@2x.png) no-repeat;
+        background-size: contain;
+    }
+}
+header nav.navbar .navbar-collapse {
+    background: rgba(60, 60, 59, 1) none repeat scroll 0 0;
+}
+header nav.navbar .navbar-nav li a:after {
+    border:  none !important;
+    display: none !important;
+}
+
+header nav.navbar .navbar-nav li a {
+    border-bottom: none !important;
+/*     background-image: url('../images/bg-nav.png');
+    background-repeat: repeat-x;
+    background-position:  left 50px;
+    -webkit-transition: all .05s ease;
+       -moz-transition: all .05s ease;
+        -ms-transition: all .05s ease;
+         -o-transition: all .05s ease;
+            transition: all .05s ease;
+    background-color: transparent; */
+}
+header nav.navbar .navbar-nav li a:hover,
+header nav.navbar .navbar-nav li.current-menu-item a {
+    background: #ffa409;
+    color: rgba(60, 60, 59, 1);
+/*     background-position:  left 0px;
+        background-color: transparent; */
+}
+header nav.navbar .navbar-nav li.current-menu-item a {
+
+}
+
+/*Marcelo - Post Venta 2016-09-26*/
+section.single.post-venta{
+    padding-top: 136px;
+    background: none;
+    min-height: auto;
+    margin-bottom: 20px;
+}
+section.single.post-venta img.img-center{
+    float: right;
+}
+.body-zone.in-post-venta{
+    position: relative;
+}
+.body-zone.in-post-venta:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 40%;
+    background: #ffa409;
+    top: 62px;
+}
+.body-zone.in-post-venta h4{
+    text-transform: uppercase;
+    color: #3c3c3b;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background: #fff;
+    position: relative;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.body-zone.in-post-venta h6.tipss{
+    text-transform: uppercase;
+    color: #3c3c3b;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: #fff;
+    position: relative;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.body-zone.in-post-venta h4:before {
+    content: "";
+    background: url(../images/int-ico-title.png) no-repeat;
+    background-size: 100%;
+    margin-right: 10px;
+    width: 52px;
+    height: 41px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.in-post-venta .procedures{
+    background: #fafafa;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+.in-post-venta .procedures h3{
+    margin: 0 0 10px;
+    color: #666666;
+    font-size: 18px;
+}
+.in-post-venta .procedures p{
+    color: #666666;
+    font-size: 14px;
+}
+.in-post-venta .procedures h3:after{
+    content: "";
+    height: 2.5px;
+    width: 60%;
+    position: relative;
+    display: block;
+    float: none;
+    background: #ffa409;
+    margin: 4px 0;
+}
+.faq-content .panel-group .panel{
+    border-radius: 0;
+    border: none;
+}
+.faq-content .panel-heading{
+    border-radius: 0;
+    border: none;
+}
+.faq-content .panel-default>.panel-heading{
+    background: #bab9b6;
+    padding: 0;
+    -webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+         -o-transition: all .2s ease;
+            transition: all .2s ease;
+    border-bottom: 3px solid #a6a49f;            
+}
+.faq-content .panel-default>.panel-heading.activao,
+.faq-content .panel-default>.panel-heading:hover{
+    background: #ffa409;
+    border-bottom: 3px solid #ed9603;
+}
+.faq-content h5{
+    font-size: 15px;
+}
+.faq-content h5 a{
+    display: block;
+    float: none;
+    padding: 15px 15px;
+    color: #fff;
+}
+.faq-content h5 a:hover,
+.faq-content h5 a:focus,
+.faq-content h5 a:active{
+    text-decoration: none;
+}
+.zona-propietario{
+    background: #ffa409;
+    padding: 15px 25px 20px;
+}
+.zona-propietario p{
+    color: #fff;
+}
+.zona-propietario .form-control{
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: none;
+    background: #ffe3b3;
+    -webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+         -o-transition: all .2s ease;
+            transition: all .2s ease;
+}
+.zona-propietario .form-control:focus{
+    background: #FFF;
+}
+.zona-propietario .btn-default{
+    -webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+         -o-transition: all .2s ease;
+            transition: all .2s ease;
+    color: #ffa409;
+    background: #fff;
+    border-radius: 0;
+    border: none;
+}
+.zona-propietario .btn-default:hover{
+    opacity: .8;
+}
+.btn-arrowson{
+    background: #fff;
+    border: 3px solid #ffa409;
+    color: #ffa409;
+    position: relative;
+    padding: 10px 30px;
+    font-size: 21px;
+    font-weight: 400;
+    display: inline-block;
+    float: none;
+    margin-top: 20px;
+    -webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+         -o-transition: all .2s ease;
+            transition: all .2s ease;
+}
+.btn-arrowson:hover,
+.btn-arrowson:focus,
+.btn-arrowson:active{
+    opacity: .6;
+    text-decoration: none;
+    color: #ffa409;
+}
+.btn-arrowson .arrow-son{
+    width: 43px;
+    height: 25px;
+    background: url(../images/arrow-son-btn.png) no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    float: none;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+section.contacto.preventa{ 
+    min-height: 79.6vh;
+}
+
+@media screen and (max-width: 767px){
+    section.home .carousel .carousel-inner .item,
+    section.home .carousel .carousel-inner .item.active{
+        padding-top: 51px!important;
+    }
+}

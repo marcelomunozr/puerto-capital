@@ -1,0 +1,6 @@
+section.proyects-zone .box-proyect .bottom{
+	background:#ffa409!important;
+}
+section.proyects-zone .box-proyect .bottom:last-child{
+	background:#3c3c3c!important;
+}
